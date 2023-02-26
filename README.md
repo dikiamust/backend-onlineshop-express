@@ -8,7 +8,7 @@ Install Dependencies: Run yarn install to install all project dependencies. This
 
 Run the Project: Use one of the following commands to run the project locally:
 
-yarn dev: This command will start the development server with hot reloading enabled.
+yarn dev: This command will start the development server with hot reloading enabled.<br />
 yarn start: This command will start the production server.
 
 ## Description
