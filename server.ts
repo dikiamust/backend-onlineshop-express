@@ -1,5 +1,5 @@
 import app from "./app";
-import {socketInit} from './utils/socket_io'
+// import {socketInit} from './utils/socket_io.txt'
 
 const PORT: number = parseInt(process.env.PORT) || 2200;
 const mainServer = app.listen(PORT, () => {

@@ -31,7 +31,6 @@ class UserController {
       return res.status(201).json({
         success: true,
         message: `The user was successfully registered as a ${role}!`,
-        data: register,
       });
     } catch (err) {  
       next(err);

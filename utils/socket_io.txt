@@ -15,11 +15,6 @@ export const socketInit = ( server: any) => {
   const io = new Server(server, corsConfig);
   var global: Global
   global.onlineUsers = {};
-//   if (typeof global !== 'undefined') {
-//     global.onlineUsers = {};
-//   } else {
-//     throw new Error('Unable to create onlineUsers object.');
-//   }
   
   io.on('connection', (socket) => {
     global.chatSocket = socket;

@@ -41,7 +41,6 @@ class UserController {
                 return res.status(201).json({
                     success: true,
                     message: `The user was successfully registered as a ${role}!`,
-                    data: register,
                 });
             }
             catch (err) {
@@ -51,7 +50,6 @@ class UserController {
     }
     static login(req, res, next) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log('masuk');
             const { email, password } = req.body;
             try {
                 const loginEmail = yield UserModel_1.User.findOne({ email });
