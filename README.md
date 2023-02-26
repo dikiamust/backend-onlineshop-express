@@ -9,7 +9,9 @@ Install Dependencies: Run yarn install to install all project dependencies. This
 Run the Project: Use one of the following commands to run the project locally:
 
 yarn dev: This command will start the development server with hot reloading enabled.<br />
-yarn start: This command will start the production server.
+yarn start: This command will start the production server.<br />
+
+To authenticate requests, you need to include an access token in the headers of your API requests. To do so, add a new field to the headers with the key 'access_token' and the value set to your access token
 
 ## Description
 
